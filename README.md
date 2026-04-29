@@ -28,7 +28,7 @@ public class Db_project1 extends JFrame {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
      con = DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/dbproject?useSSL=false&serverTimezone=UTC",
+        "jdbc:mysql://localhost:3306/db_project1?useSSL=false&serverTimezone=UTC",
         "root",
         ""
 );
